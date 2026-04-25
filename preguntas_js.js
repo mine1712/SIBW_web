@@ -100,5 +100,24 @@ database.js = [
     { q: "¿Cómo se escapa un carácter especial en una RegExp?", options: ["/", "//", "\\", "!"], correct: 2 },
     { q: "¿Qué significa el cuantificador '+' en una RegExp?", options: ["Cero o más veces", "Exactamente una vez", "Una o más veces", "Opcional"], correct: 2 },
     { q: "¿Qué significa el cuantificador '*' en una RegExp?", options: ["Cero o más veces", "Una o más veces", "Exactamente una vez", "Ninguna vez"], correct: 0 },
-    { q: "¿Para qué sirve el objeto 'FormData'?", options: ["Para crear estilos de formularios", "Para recopilar fácilmente datos de un formulario para AJAX", "Para borrar formularios", "Para validar el HTML"], correct: 1 }
+
+    // KAHOOT
+    { q: "¿Qué es un jQuery?", options: ["Un motor de plantillas", "Un framework de CSS", "Un lenguaje de servidor", "Una biblioteca de JavaScript"], correct: 3 },
+    { q: "¿Qué vulnerabilidad en JS implica la insercción y ejecución de código malicioso?", options: ["XSS (Cross-Site Scripting)", "Inyección de SQL", "Tabnabbing", "Fuga de información"], correct: 0 },
+    { q: "¿Qué tecnología de Java, que permite incrustar código Java en HTML, ha sido sustituido por frameworks como Spring", options: ["JSP (Java Server Pages)", "Servlets", "JPA (Java Persistence API)", "JDBC (Java Database Connectivity)"], correct: 0 },
+    { q: "¿Cuál es el tipo devuelto por JSON.parse()?", options: ["string", "number", "object", "boolean"], correct: 2 },
+    { q: "¿Cuál método evita recargar la página?", options: ["blockReload()", "event.preventDefault()", "haltDefault()", "stopPropagation()"], correct: 1 },
+    { q: "¿Qué objeto empaqueta formulario automáticamente?", options: ["FormData", "Headers", "Request", "URLSearchParams"], correct: 0 },
+    { q: "¿Cómo capturas errores con Fetch moderno?", options: ["try/catch await", ".if/error", "switch/case", "throwOnly"], correct: 0 },
+    { q: "¿Qué devuelve typeof tras JSON.stringify?", options: ["object", "string", "array", "json"], correct: 1 },
+    { q: "¿Qué diferencia a textContent?", options: ["Ignora HTML", "Oculta espacios", "Ejecuta scripts", "Incluye etiquetas"], correct: 0 },
+    { q: "¿Qué método crea nodos rápidos off-DOM?", options: ["createTextNode()", "appendChild()", "cloneNode()", "createDocumentFragment()"], correct: 3 },
+    { q: "¿Qué retorna querySelectrorAll?", options: ["Set", "NodeList", "Array", "HTMLCollection"], correct: 1 },
+    { q: "¿Cuál es el peligro de innerHTML?", options: ["Rompe DOM", "XSS posible", "Quita estilos", "Lento siempre"], correct: 1 },
+    { q: "¿Qué evento indica DOM listo?", options: ["load", "DOMContentLoaded", "beforeprint", "ready"], correct: 1 },
+    { q: "Completa: let tiene ámbito...", options: ["GGlobal", "De función", "De bloque", "Privado"], correct: 2 },  
+    { q: "¿Qué método registra eventos estándar?", options: ["addEventListener()", "attachEvent()", "onClick()", "listen()" ], correct: 0 },
+    { q: "¿Qué propiedad escribe HTML con etiquetas?", options: ["textContent", "innerText", "innerHTML", "outerText"], correct: 2 }
+   
+    
 ];

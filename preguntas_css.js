@@ -90,5 +90,9 @@ database.css = [
     { q: "¿Qué propiedad permite redimensionar un elemento manualmente (en navegadores)?", options: ["resize", "scale", "width", "overflow"], correct: 0 },
     { q: "¿Qué selector selecciona elementos que tienen un atributo específico?", options: ["div.clase", "div#id", "div[atributo]", "div:hover"], correct: 2 },
     { q: "¿Qué propiedad permite controlar el espaciado entre palabras?", options: ["letter-spacing", "word-spacing", "text-gap", "word-padding"], correct: 1 },
-    { q: "¿Qué valor de 'position' se comporta como 'relative' hasta que llega a un punto del scroll?", options: ["absolute", "fixed", "sticky", "static"], correct: 2 }
+    { q: "¿Qué valor de 'position' se comporta como 'relative' hasta que llega a un punto del scroll?", options: ["absolute", "fixed", "sticky", "static"], correct: 2 },
+
+    // KAHOOT
+    { q: "Completa: h1 + p selecciona...", options: ["Primer párrafo", "Todos los párrafos", "Cualquier p", "Nietos p"], correct: 0 }
+   
 ];

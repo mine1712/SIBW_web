@@ -112,5 +112,27 @@ database.php = [
     { q: "¿Qué superglobal detecta si el método usado fue POST o GET?", options: ["$_METHOD", "$_SERVER['REQUEST_METHOD']", "$_ENV", "$_REQUEST"], correct: 1 },
     { q: "¿Qué función se usa en PHP para mover un archivo subido a su destino final?", options: ["upload_file()", "move_uploaded_file()", "copy()", "save_file()"], correct: 1 },
     { q: "¿Qué atributo debe tener el <form> para permitir subir archivos?", options: ["method='file'", "enctype='multipart/form-data'", "type='upload'", "enctype='files'"], correct: 1 },
-    { q: "¿Cómo se recomienda pasar datos de PHP/Twig a un archivo JS externo?", options: ["Con variables globales", "Usando atributos 'data-xxx' en HTML", "No es posible", "Escribiendo JS con echo"], correct: 1 }
+    { q: "¿Cómo se recomienda pasar datos de PHP/Twig a un archivo JS externo?", options: ["Con variables globales", "Usando atributos 'data-xxx' en HTML", "No es posible", "Escribiendo JS con echo"], correct: 1 },
+
+    // KAHOOT
+    { q: "¿Qué palabra clave se utiliza para acceder a variables globales desde dentro de una función de PHP?", options: ["global", "static", "extern", "public"], correct: 0 },
+    { q: "¿Qué superglobal de PHP coontiene datos enviados a través del método POST de un formulario?", options: ["$_GET", "$_POST", "$_SERVER", "$_SESSION"], correct: 1 },
+    { q: "¿Qué función de PHP se utiliza para comprobar si una varibale es NULL?", options: ["is_null()", "empty()", "isset()", "defined()"], correct: 2 },
+    { q: "¿Qué función de PHP convierte un array asociativo en una cadena JSON?", options: ["json_decode()", "json_encode()", "array_to_json()", "parse_json()"], correct: 1 },
+    { q: "¿Qué directivo de Twig se utiliza para la herencia de plantillas?", options: ["{% include %}", "{% extends %}", "{% block %}", "{% use %}"], correct: 1 },
+    { q: "¿Qué método de la conexión MySQLi es más seguro contra la inyección de SQL?", options: ["connect()", "query()", "execute() con sentencias preparadas", "fetch_assoc()"], correct: 2 },
+    { q: "¿Qué diferencia clave tiene PDO?", options: ["Sin excepciones", "Solo MySQL", "Sin transacciones", "Multibase"], correct: 3 },
+    { q: "¿Cómo accedes a persona.nobre en Twig?", options: ["{{ persona.nombre }}", "{% persona.nombre %}", "${ persona.nombre}", "[[persona.nombre]]"], correct: 0 },
+    { q: "¿Qué superglobal combina GET y POST?", options: ["$_REQUEST", "$_ENV", "$_FILES", "$_SERVER"], correct: 0 },
+    { q: "¿Qué hace base64_encode en imágenes?", options: ["Comprime PNG", "Corta bytes", "Cifra datos", "Binario a texto"], correct: 3 },
+    { q: "¿Qué concatena cadenas en PHP?", options: ["+", ".", "&", "::()"], correct: 1 },
+    { q: "¿Qué hace require frente a include?", options: ["Detiene en error", "Ignora errores", "Solo incluye CSS", "No evalúa ficheros"], correct: 0 },
+    { q: "Qué lenguaje es el oficial para el desarrollo de Android y es 100% interoperable con Java?", options: ["Kotlin", "Swift", "C#", "Java"], correct: 0 },
+    { q: "¿Qué estilo de arquitectura, basado en HTTP y que usa URLs y JSON, es muy popular para construir APIs web?", options: ["SOAP", "REST", "GraphQL", "gRPC"], correct: 1 },
+    { q: "¿Qué protocolo de mensajería utiliza XML y está mejor adaptado para servicios web complejos que requieren alta seguridad?", options: ["SOAP", "REST", "WebSocket", "gRPC"], correct: 0 },
+    { q: "¿Qué protocolo permite la comunicación bidireccional en tiempo real sobre conexión TCP, ideal apra chats y juegos en línea?",  options: ["Webhooks", "WebSocket", "HTTP", "WebRTC"], correct: 1 },
+    { q: "¿Qué lenguaje de programación, creado por Google, está diseñado para ser rápido, simple y eficiente en backend?", options: ["Python", "Java", "Go (Golang)", "Ruby"], correct: 2 },
+    { q: "¿Qué función de PHP es crucial para prevenir ataques Cross-Site Scripting (XSS) al mostrar datos de usuario?", options: ["htmlspecialchars()", "strip_tags()", "addslashes()", "urlencode()"], correct: 0 }
+
+
 ];

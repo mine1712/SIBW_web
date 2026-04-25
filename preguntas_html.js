@@ -90,7 +90,17 @@ database.html = [
     { q: "¿Qué etiqueta agrupa los enlaces de navegación?", options: ["<menu>", "<nav>", "<links>", "<header>"], correct: 1 },
     { q: "¿Qué atributo de <script> hace que se ejecute en paralelo mientras se carga la página?", options: ["defer", "async", "wait", "parallel"], correct: 1 },
     { q: "¿Qué atributo de <script> hace que se ejecute solo después de que la página se haya cargado?", options: ["defer", "async", "after", "end"], correct: 0 },
-    { q: "¿Qué etiqueta define la parte más importante o central del contenido?", options: ["<section>", "<article>", "<main>", "<body>"], correct: 2 }
+    { q: "¿Qué etiqueta define la parte más importante o central del contenido?", options: ["<section>", "<article>", "<main>", "<body>"], correct: 2 },
+
+    // KAHOOT
+    { q: "¿Qué meta habilita diseño responsive?", options: ["viewport", "keyboard", "robots", "author"], correct: 0 },
+    { q: "¿Qué unidad es relativa al contendor?", options: ["px", "cm", "%", "in"], correct: 2 },
+    { q: "¿Qué etiqueta define navegación principal?", options: ["nav", "aside", "section", "figure"], correct: 0 },
+    { q: "¿Qué atributo almacena datos personalizados?", options: ["data-*", "src", "alt", "href"], correct: 0 },
+     { q: "¿Por qué usar elementos semánticos?(2 válidas)", options: ["Aleatorio", "SEO", "Decoración", "Accesibilidad"], correct: [1, 3] }
+   
+
+
 
 
 ];
